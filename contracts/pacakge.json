@@ -1,0 +1,16 @@
+{
+  "name": "omega-prime-syndicate",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:skale": "hardhat run scripts/deploy-skale.js --network skale",
+    "tx:mint": "hardhat run scripts/mint.js --network skale",
+    "tx:transfer": "hardhat run scripts/transfer.js --network skale"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.0",
+    "hardhat": "^2.22.5"
+  }
+}
